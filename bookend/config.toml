@@ -1,0 +1,51 @@
+baseURL = "https://example.com/"
+languageCode = "en-uk"
+title = "Between the Bookends"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Chuck Chua"
+enableEmoji = true
+publishDir = "docs"
+disqusShortname = "Chuck"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/read2.png"
+  description ="non-fiction book reviews"
+  #It is not visible on web pages (you can only see it from the HTML source), 
+  #but should give search engines a hint about your website.
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Chuck Chua"
+  thumbnail = "/images/author.jpg"
+  description = "amateur curator of words."
+
+[params.index]
+  picture = "/images/author.jpg"
+  title = "Chuck Chua"
+  subtitle = "I'm an avid reader."
+  mdtext = ''''''
+  alertbar = true
+
+[params.social]
+  linkedin = "chuck-chua-340b2910"
+
+## Main Menu
+[[menu.main]]
+    name = "Book Reviews"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+
+[[menu.main]]
+    name = "Quotes"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
+
+[[menu.main]]
+    name = "Who We Are"
+    identifier = "about"
+    weight = 200
+    url = "/"
